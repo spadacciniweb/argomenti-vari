@@ -3,6 +3,6 @@
 Esercizi su vari argomenti quali:
 
 - DBMS relazionali:
-    - [transazioni](/DBMSR/transactions)
+    - [transazioni](/DBMSR/transactions.md)
 - MongoDB:
-    - [intro](/MongoDB/intro)
+    - [intro](/MongoDB/intro.md)
