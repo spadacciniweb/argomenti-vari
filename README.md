@@ -1,8 +1,6 @@
-# Esercizi vari
+# Teoria e esercizi vari
 
-Esercizi su vari argomenti quali:
+Teoria e esercizi su vari argomenti quali:
 
-- DBMS relazionali:
-    - [transazioni](/DBMSR/transactions.md)
-- MongoDB:
-    - [intro](/MongoDB/intro.md)
+- [DBMS relazionali](/DBMSR/README.md)
+- [MongoDB](/MongoDB/README.md)
