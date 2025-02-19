@@ -263,7 +263,7 @@ Ciascuna query riceverà un `ACK` se andrà a buon fine (quindi per la prima si 
 1. aggiungere director: "James Cameron" e writer: "James Cameron" al film "Avatar":
 
 ```
-> db.movies.update({ _id: ObjectId("67b46dac33985532bee43281") }, { $set: { director: "James Cameron", writer: "James Cameron" } })
+> db.movies.updateOne({ _id: ObjectId("67b46dac33985532bee43281") }, { $set: { director: "James Cameron", writer: "James Cameron" } })
 {
   acknowledged: true,
   insertedId: null,
@@ -275,7 +275,7 @@ Ciascuna query riceverà un `ACK` se andrà a buon fine (quindi per la prima si 
 
 2. aggiungere actors: "Sam Worthington" al film "Avatar":
 ```
-> db.movies.update({ _id: ObjectId("67b46dac33985532bee43281") }, { $push: { actors: "Sam Worthington" } })
+> db.movies.updateOne({ _id: ObjectId("67b46dac33985532bee43281") }, { $push: { actors: "Sam Worthington" } })
 ```
 
 ## Ricerca di testo
