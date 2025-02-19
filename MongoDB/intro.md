@@ -280,7 +280,7 @@ Ciascuna query riceverà un `ACK` se andrà a buon fine (quindi per la prima si 
 
 ## Ricerca di testo
 
-1. ricerca tutti i documenti contenenti nel titolo la stringa "the" nel titolo:
+1. ricerca tutti i documenti contenenti nel titolo la stringa "the":
 
 ```
 > db.movies.find({ title: { $regex: "the" } })
@@ -289,7 +289,7 @@ Ciascuna query riceverà un `ACK` se andrà a buon fine (quindi per la prima si 
 2. ricerca tutti i documenti contenenti nel titolo la stringa "the" o la stringa "to":
 
 ```
-db.movies.find({ $or: [{ title: { $regex: "the" } }, { title: { $regex: "to" } }] })
+> db.movies.find({ $or: [{ title: { $regex: "the" } }, { title: { $regex: "to" } }] })
 ```
 
 3. ricerca tutti i documenti contenenti nel titolo la stringa "the" ma non la stringa "back" (quest'ultima insensitive): 
