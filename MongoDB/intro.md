@@ -50,14 +50,14 @@ Per semplicità, nel seguito il prompt sarà semplificato con il seguente:
 >
 ```
 
-## Lista collections
+## Lista di collections
 
 ```
 > show collections
 >
 ```
 
-In accordo con il paragrafo precedente, se non sono presenti documenti, non ci sarà nessun contenitore, quindi nemmeno nessuna collections. 
+In accordo con il paragrafo precedente, se non sono presenti documenti, non ci sarà nessun contenitore, quindi nemmeno nessuna collection. 
 
 ## Inserimento documenti
 
