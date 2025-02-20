@@ -310,7 +310,15 @@ Ciascuna query riceverà un `ACK` se andrà a buon fine (quindi per la prima si 
 
 ## Ricerca documenti/2
 
-1. ricerca tutti i documenti visualizzanso solo gli attributi `_id` e `title`: 
+In questa sezione saranno utilizzati i concetti di `projection` e `pipeline`.
+
+1. `count()`: contare il numero di documenti:
+
+   ```mongosh
+   > db.movies.find().count()
+   ```
+
+2. `projection`: ricerca tutti i documenti visualizzanso solo gli attributi `_id` e `title`: 
 
    ```mongosh
    > db.movies.find({}, { _id: 1, title: 1 })
@@ -322,20 +330,26 @@ Ciascuna query riceverà un `ACK` se andrà a buon fine (quindi per la prima si 
    > db.movies.find({}, { _id: 0, title: 0 })
    ```
 
-2. ricerca tutti i documenti limitando la visualizzazione a 2:
+3. `limit()`: ricerca tutti i documenti limitando la visualizzazione a 2:
 
    ```mongosh
    > db.movies.find().limit(2)
    ```
 
-3. mostrare il titolo dei primi 3 documenti ordinati per il titolo in maniera ascendente:
+4. `projection`, `sort()` e `limit()`: mostrare il titolo dei primi 3 documenti ordinati per il titolo in maniera ascendente:
 
    ```mongosh
-   > db.movies.find({},{_id:0, title:1}).sort({ title: 1 }).limit(3)
+   > db.movies.find({},{ _id: 0, title: 0 }).sort({ title: 1 }).limit(3)
    ```
 
-4. contare il numero di documenti:
+5. `skip` e `limit`: mostrare i documenti ordinati per anno crescente e titolo decrescente, limitandosi a 2 e partendo dal terzo:
 
    ```mongosh
-   > db.movies.find().count()
+   > db.movies.find().sort({ year: 1, title: -1 }).skip(2).limit(2)
+   ```
+
+   o equivalentemente:
+
+   ```mongosh
+   > db.movies.find().sort({ year: 1, title: -1 }).limit(2).skip(2)
    ```
