@@ -238,13 +238,13 @@ Di seguito alcune query sulla collect `movies` per ottenere:
    > db.movies.find()
    ```
 
-2. i documento con `writer` "Quentin Tarantino"
+2. i documento con `writer` "Quentin Tarantino":
 
    ```mongosh
    > db.movies.find({ writer: "Quentin Tarantino" })
    ```
 
-3. i documenti con `actors` "Christopher Lloyd"
+3. i documenti con `actors` "Christopher Lloyd":
 
    ```mongosh
    > db.movies.find({ actors: "Christopher Lloyd" })
@@ -322,19 +322,19 @@ Ciascuna query riceverà un `ACK` se andrà a buon fine (quindi per la prima si 
    > db.movies.find({}, { _id: 0, title: 0 })
    ```
 
-2. ricerca tutti i documenti limitando la visualizzazione a 2
+2. ricerca tutti i documenti limitando la visualizzazione a 2:
 
    ```mongosh
    > db.movies.find().limit(2)
    ```
 
-3. mostrare il titolo dei primi 3 documenti ordinati per il titolo in maniera ascendente
+3. mostrare il titolo dei primi 3 documenti ordinati per il titolo in maniera ascendente:
 
    ```mongosh
    > db.movies.find({},{_id:0, title:1}).sort({ title: 1 }).limit(3)
    ```
 
-4. contare il numero di documenti
+4. contare il numero di documenti:
 
    ```mongosh
    > db.movies.find().count()
