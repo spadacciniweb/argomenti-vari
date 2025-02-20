@@ -253,7 +253,7 @@ Di seguito alcune query sulla collect `movies` per ottenere:
 4. i documenti rilasciati nel decennio 1970-1980:
 
    ```mongosh
-   > db.movies.find({ year: {$gt: 1970, $lt: 1980 } })
+   > db.movies.find({ year: { $gt: 1970, $lt: 1980 } })
    ```
 
 5. i documenti pubblicati prima dell'anno 1975 o successivamente all'anno 2005:
