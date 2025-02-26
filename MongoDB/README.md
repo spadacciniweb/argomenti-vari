@@ -27,4 +27,6 @@
   - [Replication](https://www.mongodb.com/docs/manual/replication/)
   - [Sharding](https://www.mongodb.com/docs/manual/sharding/)
 - esercizi:
-  - [intro](intro.md)
+  - [intro](0_intro.md)
+  - [aggregation_I](1_aggregation_I.md)
+  - [aggregation_II](2_aggregation_II.md)

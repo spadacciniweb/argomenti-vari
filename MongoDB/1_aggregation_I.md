@@ -2,7 +2,7 @@
 
 I seguenti esercizi sono eseguiti dalla shell di MongoDB.
 
-## step 0 - inserimento massivo
+## Inserimento massivo
 
 ```mongosh
 > db.orders.insertMany([
