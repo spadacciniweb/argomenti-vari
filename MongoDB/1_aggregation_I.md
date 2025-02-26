@@ -1,4 +1,4 @@
-# Esercizi su MongoDB
+# Esercizi su MongoDB - Aggregation I
 
 I seguenti esercizi sono eseguiti dalla shell di MongoDB.
 
