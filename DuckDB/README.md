@@ -1,4 +1,4 @@
-## Overview
+# DuckDB overview
 
 Ci sono svariati sistemi di gestione dei database (DBMS), nessuno con caratteristiche omnicomprensive, ma ciascuno con differenti trade-offs per i diversi casi d'uso.\
 DuckDB è un RDBMS che supporta lo Structured Query Language (SQL).
@@ -13,7 +13,7 @@ Questa scelta progettuale la rende valida per supportare carichi di lavoro per o
 Nota:
 [*] -> il tipico workload delle OLAP è caratterizzato da complesse query che hanno relativamente un tempo di processamento lungo le quali solitamente esaminano significativi porzioni di tabelle o join tra tabelle. Eventuali modifiche su dati sono spesso su larga scala, con operazioni su ampie porzioni di tabelle.
 
-# Teoria ed esempi
+## Teoria ed esempi
 
 - teoria:
   - [Installation](http://duckdb.org/docs/installation)
@@ -40,6 +40,7 @@ Nota:
     - SQL
       - [Introduction](https://duckdb.org/docs/stable/sql/introduction)
       - [Statements](https://duckdb.org/docs/stable/sql/statements/overview)
+      - [Data types](https://duckdb.org/docs/stable/sql/data_types/overview)
     - [Guides](https://duckdb.org/docs/stable/guides/overview)
 - esempi:
   - [intro](0_intro.md)
