@@ -1,4 +1,4 @@
-# Esercizi vari su DBMS relazionali
+# Esempi su DBMS relazionali
 
-- esercizi:
+- esempi:
   - [transazioni](transactions.md)

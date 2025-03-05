@@ -1,4 +1,4 @@
-# Esercizi su MongoDB - Aggregation II
+# Esempi su MongoDB - Aggregation II
 
 I seguenti esercizi sono eseguiti dalla shell di MongoDB.\
 I dati degli esempi sono collezioni di zip codes presi da [qui](https://www.mongodb.com/docs/manual/tutorial/aggregation-zip-code-data-set/) e una copia degli stessi dati è fornita nel file `zips.json.gz`.

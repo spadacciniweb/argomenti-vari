@@ -1,4 +1,4 @@
-# Teoria e esercizi vari su MongoDB
+# Teoria ed esempi su MongoDB
 
 - teoria:
   - [Documents](https://www.mongodb.com/docs/manual/core/document/)
@@ -26,7 +26,7 @@
     - [Index Types](https://www.mongodb.com/docs/manual/core/indexes/index-types/)
   - [Replication](https://www.mongodb.com/docs/manual/replication/)
   - [Sharding](https://www.mongodb.com/docs/manual/sharding/)
-- esercizi:
+- esempi:
   - [intro](0_intro.md)
   - [aggregation_I](1_aggregation_I.md)
   - [aggregation_II](2_aggregation_II.md)
