@@ -1,6 +1,6 @@
 # Teoria ed esempi
 
-Teoria e esercizi su vari argomenti quali:
+Teoria ed esempi sugli argomenti di seguito:
 
 - [DBMS relazionali](/DBMSR/README.md)
 - [MongoDB](/MongoDB/README.md)
