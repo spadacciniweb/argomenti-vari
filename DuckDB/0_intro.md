@@ -4,6 +4,8 @@ I seguenti esercizi sono eseguiti dalla shell di DuckDB.
 
 ## Connessione al DBMS
 
+Per connettersi al DB si digita semplicemente `duckdb` come di seguito:
+
 ```ducksh
 $ duckdb
 v1.2.0 5f5512b827
@@ -13,7 +15,44 @@ Use ".open FILENAME" to reopen on a persistent database.
 D
 ```
 
-## Creazione e cancellazione di tabellle
+Nella connessione appena effettuata si potranno impartire comandi ma si lavorerà in memoria.\
+Per rendere persistente la connessione è possibile:
+
+- come suggerisce il prompt, utilizzare  `".open FILENAME"`:
+
+  ```ducksh
+  $ duckdb
+  v1.2.0 5f5512b827
+  Enter ".help" for usage hints.
+  Connected to a transient in-memory database.
+  Use ".open FILENAME" to reopen on a persistent database.
+  D
+  ```
+
+- aggiungere come argomento dell'eseguibile il nostro DB che, se non esiste, sarà creato successivamente alla creazione dello schema:
+
+  ```ducksh
+  $ duckdb /tmp/my1.db
+  v1.2.0 5f5512b827
+  Enter ".help" for usage hints.
+  D
+  ```
+
+Se si sta già lavorando in maniera persistente, è possibile cambiare il file su cui si lavora come di seguito:
+
+  ```ducksh
+  D ATTACH DATABASE '/path/to/my_second.db' AS mydb;
+  D USE mydb;
+  ```
+
+in cui:
+
+- con `ATTACH DATABASE` si associa il nuovo `mydb` al file `/path/to/my_second.db`;
+- con `USE` si passa a lavorare sul nuovo `mydb`.
+
+Per approfondimenti vedi [qui](https://duckdb.org/docs/stable/connect/overview).
+
+## Creazione e cancellazione di tabelle
 
 Creare la tabella `weather`.
 
@@ -57,6 +96,8 @@ D show tables;
 └─────────┘
 ```
 
+Per approfondimenti vedi [qui](https://duckdb.org/docs/stable/sql/introduction#creating-a-new-table).
+
 ## Inserimento righe
 
 Inserire il seguente record nella tabella `weather`:
@@ -81,6 +122,8 @@ D INSERT INTO weather VALUES
   ('San Francisco', 43, 57, 0.0, '1994-11-29'),
   ('Hayward', 37, 54, NULL, '1994-11-29');
 ```
+
+Per approfondimenti vedi [qui](https://duckdb.org/docs/stable/sql/introduction#populating-a-table-with-rows).
 
 ## Visualizzazione record
 
@@ -144,6 +187,8 @@ D SELECT *
 └───────────────┴─────────┴─────────┴───────┴────────────┘
 ```
 
+Per approfondimenti vedi [qui](https://duckdb.org/docs/stable/sql/introduction#querying-a-table).
+
 ## Aggiornare record
 
 ```ducksh
@@ -164,6 +209,8 @@ D SELECT city, prcp, date FROM weather WHERE city = 'San Francisco';
 └───────────────┴───────┴────────────┘
 ```
 
+Per approfondimenti vedi [qui](https://duckdb.org/docs/stable/sql/introduction#updates).
+
 ## Cancellazione record
 
 Per la cancellazione dei record si ricorrerrà al `DELETE`:
@@ -171,6 +218,8 @@ Per la cancellazione dei record si ricorrerrà al `DELETE`:
 ```ducksh
 D DELETE FROM weather;
 ```
+
+Per approfondimenti vedi [qui](https://duckdb.org/docs/stable/sql/introduction#deletions).
 
 ## Eseguire JOIN
 
@@ -234,3 +283,84 @@ in cui si è optato per la `LEFT OUTER JOIN` per quanto di seguito:
 - `CROSS JOIN` -> anche denominata `CARTESIAN JOIN` crea un prodotto cartesiano tra row, quindi creerà un nuovo insieme in cui combinerà ogni row dalla prima tabelle con ogni row della seconda tabella. In altri termini, sarà creato ogni possibile conmbinazione senza effettuare verifiche di match.
 
 Dall'elenco precedente sono trascurate le metodologie di `JOIN` più specifiche quali le 'ASOF Join' e le join su file e subqueries.
+
+Per approfondimenti vedi [qui](https://duckdb.org/docs/stable/sql/introduction#joins-between-tables).
+
+## Importazione di dati
+
+Per l'imporatazione:
+
+- di un file CSV, si può eseguire tramite la direttiva:
+
+  ```ducksh
+  D CREATE TABLE table1 AS SELECT * FROM read_csv_auto('path/to/your/file.csv');
+  ```
+
+  In particolare sarà utile procedere come di seguito:
+
+  1. verifica del contenuto del file:
+
+    ```ducksh
+    D SELECT * FROM read_csv_auto('path/to/your/file.csv') LIMIT 3;
+    ```
+
+    Se nel precedente passaggio è mostrato correttamente l'header che dovranno avere le colonne, si procede al punto 2a, altrimenti al 2b.
+  
+  2a. come mostrato all'inizio della sezione, creazione `table1` con il contenuto del file;
+
+  ```ducksh
+  D CREATE TABLE table1 AS SELECT * FROM read_csv_auto('path/to/your/file.csv');
+  ```
+
+  2b. creare la struttura della tabella con la `CREATE TABLE` come di seguito:
+
+  ```ducksh
+  D CREATE TABLE table1 ("col1" TYPE, ...)
+  ```
+
+  e successivamente importare il contenuto del file nella tabella appane creata come di seguito:
+
+  ```ducksh
+  D COPY table1 FROM 'path/to/your/file.csv' (FORMAT 'csv', quote '"', delimiter ',', header 0);
+  ```
+
+  eliminando o personalizzando le opzioni come si desidera.
+
+  Per approfondimenti vedi [qui](https://duckdb.org/docs/stable/guides/file_formats/csv_import.html)
+
+- di un file JSON, si può eseguire tramite la direttiva:
+
+  ```ducksh
+  D CREATE TABLE table1 AS SELECT * FROM read_json_auto('path/to/your/file.json');
+  ```
+
+  In particolare sarà utile procedere come di seguito:
+
+  1. verifica del contenuto del file:
+
+    ```ducksh
+    D SELECT * FROM read_json_auto('path/to/your/file.csv') LIMIT 3;
+    ```
+
+    Se nel precedente passaggio è mostrato correttamente l'header che dovranno avere le colonne, si procede al punto 2a, altrimenti al 2b.
+  
+  2a. come mostrato all'inizio della sezione, creazione `table1` con il contenuto del file;
+
+  ```ducksh
+  D CREATE TABLE table1 AS SELECT * FROM read_json_auto('path/to/your/file.json');
+  ```
+
+  2b. creare la struttura della tabella con la `CREATE TABLE` come di seguito:
+
+  ```ducksh
+  D CREATE TABLE table1 ("col1" TYPE, ...)
+  ```
+
+  e successivamente importare il contenuto del file nella tabella appane creata come di seguito:
+
+  ```ducksh
+  D COPY table1 FROM 'path/to/your/file.json';
+  ```
+
+  Per approfondimenti vedi [qui](https://duckdb.org/docs/stable/guides/file_formats/json_import).
+  
