@@ -282,13 +282,13 @@ in cui si è optato per la `LEFT OUTER JOIN` per quanto di seguito:
 - `FULL OUTER JOIN` -> anche denominata `FULL JOIN` mostra tutti i record da entrambe le tabelle: quando ci sono match mostrerà i dati, nei casi residui visualizzera il valore `NULL`;
 - `CROSS JOIN` -> anche denominata `CARTESIAN JOIN` crea un prodotto cartesiano tra row, quindi creerà un nuovo insieme in cui combinerà ogni row dalla prima tabelle con ogni row della seconda tabella. In altri termini, sarà creato ogni possibile conmbinazione senza effettuare verifiche di match.
 
-Dall'elenco precedente sono trascurate le metodologie di `JOIN` più specifiche quali le 'ASOF Join' e le join su file e subqueries.
+Dall'elenco precedente sono trascurate le metodologie di `JOIN` più specifiche quali le `ASOF Join` e le join su file e subqueries.
 
 Per approfondimenti vedi [qui](https://duckdb.org/docs/stable/sql/introduction#joins-between-tables).
 
 ## Importazione di dati
 
-Per l'imporatazione:
+Per l'importazione:
 
 - di un file CSV, si può eseguire tramite la direttiva:
 
