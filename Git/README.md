@@ -7,8 +7,6 @@
 
 - Actions:
   - [intro](https://theweeklychallenge.org/blog/github-actions/)
-
-### Examples
-
-- [build ci/cd](https://zellwk.com/blog/understanding-github-actions/)
-- [rsync](https://zellwk.com/blog/rsync-with-github-actions-when-using-a-custom-port/)
+  - examples:
+    - [build ci/cd](https://zellwk.com/blog/understanding-github-actions/)
+    - [rsync](https://zellwk.com/blog/rsync-with-github-actions-when-using-a-custom-port/)
