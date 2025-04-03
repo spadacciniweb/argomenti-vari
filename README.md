@@ -2,6 +2,8 @@
 
 Teoria ed esempi sugli argomenti di seguito:
 
+- [assembly](/Assembly/README.md)
+- [C](/C/README.md)
 - DBMS
   - [DBMS relazionali](/DBMSR/README.md)
   - [MongoDB](/MongoDB/README.md)
