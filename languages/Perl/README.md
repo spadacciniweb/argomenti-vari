@@ -1,5 +1,18 @@
 # Perl
 
+## Moduli
+
+Elenco di moduli interessanti con approfondimento:
+
+- [App::Timer](https://theweeklychallenge.org/blog/app-timer/)
+- Parallelizzazione:
+  - [MCE, Many-Core Engine](https://theweeklychallenge.org/blog/mce-how-to/)
+- Async:
+  - [Future](https://theweeklychallenge.org/blog/future-in-perl/)
+  - [Promise](https://theweeklychallenge.org/blog/promise-in-perl/)
+- [Image to text](https://theweeklychallenge.org/blog/extraction-in-perl/)
+- [Test::Excel](https://theweeklychallenge.org/blog/test-excel/)
+
 ## Approfondimenti
 
 - [Concurrent and Parallel Programming](https://github.com/manwar/Concurrent-Parallel-Programming)
@@ -11,16 +24,4 @@
 - Regexp:
   - [variable ${^LAST_SUCCESSFUL_PATTERN}](https://theweeklychallenge.org/blog/perl-regex/)
 - [Taint](https://theweeklychallenge.org/blog/taint/)
-
-## Moduli
-
-Elenco di moduli interessanti con approfondimento:
-
-- [App timer](https://theweeklychallenge.org/blog/app-timer/)
-- Parallelizzazione:
-  - [MCE, Many-Core Engine](https://theweeklychallenge.org/blog/mce-how-to/)
-- Async:
-  - [Future](https://theweeklychallenge.org/blog/future-in-perl/)
-  - [Promise](https://theweeklychallenge.org/blog/promise-in-perl/)
-- [Image to text](https://theweeklychallenge.org/blog/extraction-in-perl/)
-- [Test::Excel](https://theweeklychallenge.org/blog/test-excel/)
+- [type systems](https://blogs.perl.org/users/leon_timmermans/2025/02/a-deep-dive-into-the-perl-type-systems.html)
