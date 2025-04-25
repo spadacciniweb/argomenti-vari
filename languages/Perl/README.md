@@ -17,6 +17,9 @@ Elenco di moduli interessanti con approfondimento:
 
 - [Concurrent and Parallel Programming](https://github.com/manwar/Concurrent-Parallel-Programming)
 - [Memory leak](https://theweeklychallenge.org/blog/memory-leak/)
+- new module:
+    - [perlnewmod](https://perldoc.perl.org/perlnewmod)
+    - [Ex new mod](https://peateasea.de/building-map-tube-whatever-maps-a-howto-first-steps/#creating-a-stub-module)
 - [Random](https://theweeklychallenge.org/blog/random-in-perl/)
 - [Read large file](https://theweeklychallenge.org/blog/read-large-file/)
 - [Slurp](https://theweeklychallenge.org/blog/slurp-in-perl/)
