@@ -26,3 +26,7 @@ Teoria ed esempi sugli argomenti di seguito:
 - [.vimrc](https://github.com/vincenzoargese/vimrc)
 - [getaddrinfo](https://valentin.gosu.se/blog/2025/02/getaddrinfo-sucks-everything-else-is-much-worse)
 - [Build your own x](https://github.com/codecrafters-io/build-your-own-x)
+
+## Other collections
+
+- [The Book of Secret Knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
