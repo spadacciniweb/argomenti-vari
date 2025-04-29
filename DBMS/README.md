@@ -5,6 +5,7 @@
 - [Vector search in old and modern databases](https://manticoresearch.com/blog/vector-search-in-databases/)
 - [MariaDB Vector](https://mariadb.org/projects/mariadb-vector/)
 - [pgvector: vector similarity search for Postgres](https://github.com/pgvector/pgvector)
+- [Vector Similarity Search in DuckDB](https://duckdb.org/2024/05/03/vector-similarity-search-vss.html)
 
 
 ## Approfondimenti
