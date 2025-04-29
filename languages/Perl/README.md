@@ -16,6 +16,7 @@ Elenco di moduli interessanti con approfondimento:
 ## Approfondimenti
 
 - [Concurrent and Parallel Programming](https://github.com/manwar/Concurrent-Parallel-Programming)
+- [CVE in Perl](https://theweeklychallenge.org/blog/cve-in-perl/)
 - [Memory leak](https://theweeklychallenge.org/blog/memory-leak/)
 - new module:
     - [perlnewmod](https://perldoc.perl.org/perlnewmod)
