@@ -14,6 +14,7 @@ Teoria ed esempi sugli argomenti di seguito:
   - [DBMS relazionali](DBMS/DBMSR/README.md)
   - [MongoDB](DBMS/MongoDB/README.md)
   - [DuckDB](DBMS/DuckDB/README.md)
+  - [DuckDB](DBMS/Redis/README.md)
 - containers:
   - [Docker](containers/Docker/README.md)
 - [Cryptography](cryptography/README.md)
