@@ -17,6 +17,10 @@ Elenco di moduli interessanti con approfondimento:
 
 - [Concurrent and Parallel Programming](https://github.com/manwar/Concurrent-Parallel-Programming)
 - [CVE in Perl](https://theweeklychallenge.org/blog/cve-in-perl/)
+- Mojolicious and Docker:
+  - [via DragosTrif](https://dev.to/dragostrif/mojolicious-and-docker-939)
+  - [via github](https://github.com/Tekki/docker-mojolicious)
+  - [via perlmaven](https://perlmaven.com/hello-world-with-mojolicious-in-docker)
 - [Memory leak](https://theweeklychallenge.org/blog/memory-leak/)
 - new module:
     - [perlnewmod](https://perldoc.perl.org/perlnewmod)
