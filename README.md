@@ -20,6 +20,7 @@ Teoria ed esempi sugli argomenti di seguito:
 - [Cryptography](cryptography/README.md)
 - version control:
   - [Git](version_control/Git/README.md)
+- [Tools](tools/README.md)
 
 ## Link utili
 
