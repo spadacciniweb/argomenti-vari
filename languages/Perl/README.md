@@ -21,6 +21,10 @@ Elenco di moduli interessanti con approfondimento:
   - [Quick Start](https://perldancer.org/quickstart)
   - [Tutorial](https://metacpan.org/dist/Dancer2/view/lib/Dancer2/Tutorial.pod)
   - [Manual](https://metacpan.org/dist/Dancer2/view/lib/Dancer2/Manual.pod)
+- ORM:
+  - DBIx::Class:
+    - [Intro](https://metacpan.org/dist/DBIx-Class/view/lib/DBIx/Class/Manual/Intro.pod)
+    - [main POD](https://metacpan.org/pod/DBIx::Class)
 - Mojolicious and Docker:
   - [via DragosTrif](https://dev.to/dragostrif/mojolicious-and-docker-939)
   - [via github](https://github.com/Tekki/docker-mojolicious)
