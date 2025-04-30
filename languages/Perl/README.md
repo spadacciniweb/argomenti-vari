@@ -17,6 +17,10 @@ Elenco di moduli interessanti con approfondimento:
 
 - [Concurrent and Parallel Programming](https://github.com/manwar/Concurrent-Parallel-Programming)
 - [CVE in Perl](https://theweeklychallenge.org/blog/cve-in-perl/)
+- Dancer2:
+  - [Quick Start](https://perldancer.org/quickstart)
+  - [Tutorial](https://metacpan.org/dist/Dancer2/view/lib/Dancer2/Tutorial.pod)
+  - [Manual](https://metacpan.org/dist/Dancer2/view/lib/Dancer2/Manual.pod)
 - Mojolicious and Docker:
   - [via DragosTrif](https://dev.to/dragostrif/mojolicious-and-docker-939)
   - [via github](https://github.com/Tekki/docker-mojolicious)
