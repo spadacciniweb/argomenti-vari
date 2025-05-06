@@ -50,6 +50,7 @@ Nota:
 
 - [window functions](https://duckdb.org/2025/02/10/window-catchup.html)
 - [CSV Reader and the Pollock Robustness Benchmark](https://duckdb.org/2025/04/16/duckdb-csv-pollock-benchmark.html)
+- [Temporal Analysis with Stream Windowing Functions](https://duckdb.org/2025/05/02/stream-windowing-functions.html)
 
 ## Tricks
 
