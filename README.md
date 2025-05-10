@@ -7,7 +7,6 @@ Teoria ed esempi sugli argomenti di seguito:
   - [Bash](languages/Bash/README.md)
   - [C](languages/C/README.md)
   - [Flutter](languages/Flutter/README.md)
-  - [Machine Learning](languages/Machine_Learning/README.md)
   - [Perl](languages/Perl/README.md)
   - [Python](languages/Python/README.md)
 - [DBMS](DBMS/README.md):
@@ -18,6 +17,7 @@ Teoria ed esempi sugli argomenti di seguito:
 - containers:
   - [Docker](containers/Docker/README.md)
 - [Cryptography](cryptography/README.md)
+- [Machine Learning](Machine_Learning/README.md)
 - version control:
   - [Git](version_control/Git/README.md)
 - [Tools](tools/README.md)
