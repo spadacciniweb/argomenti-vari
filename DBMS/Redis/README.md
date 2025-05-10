@@ -3,6 +3,7 @@
 ## Intro
 
 - [github](https://github.com/antirez/redis)
+- [commands](https://redis.io/docs/latest/commands/)
 
 ## Time Series
 
