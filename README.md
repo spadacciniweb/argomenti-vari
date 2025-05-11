@@ -18,6 +18,7 @@ Teoria ed esempi sugli argomenti di seguito:
   - [Docker](containers/Docker/README.md)
 - [Cryptography](cryptography/README.md)
 - [Machine Learning](Machine_Learning/README.md)
+- [OS](OS/README.md)
 - version control:
   - [Git](version_control/Git/README.md)
 - [Tools](tools/README.md)
