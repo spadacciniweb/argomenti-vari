@@ -7,3 +7,8 @@
 ## Esempi
 
 - [decode hexdump](https://theweeklychallenge.org/blog/decode-hexdump/)
+
+
+## tool online
+
+- [Compiler explorer](https://godbolt.org/)
