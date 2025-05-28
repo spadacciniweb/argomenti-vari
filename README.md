@@ -14,6 +14,8 @@ Teoria ed esempi sugli argomenti di seguito:
   - [MongoDB](DBMS/MongoDB/README.md)
   - [DuckDB](DBMS/DuckDB/README.md)
   - [Redis](DBMS/Redis/README.md)
+- cloud providers:
+    - [AWS](cloud_providers/README.md)
 - containers:
   - [Docker](containers/Docker/README.md)
 - [Cryptography](cryptography/README.md)
