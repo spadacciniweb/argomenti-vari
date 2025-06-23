@@ -1,7 +1,9 @@
 # Perl
 
 ## Intro
-
+- [Learning Perl](https://dev.to/lnation/series/32010) some chapters:
+    - [File Handles](https://dev.to/lnationorg/learning-perl-file-handles-13if)
+    - [Overloading Operators](https://dev.to/lnationorg/learning-perl-overloading-operators-lj3)
 - [array vs list](https://theweeklychallenge.org/blog/array-vs-list/)
 
 ## Moduli
