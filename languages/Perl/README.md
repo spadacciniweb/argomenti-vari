@@ -1,5 +1,9 @@
 # Perl
 
+## Intro
+
+- [array vs list](https://theweeklychallenge.org/blog/array-vs-list/)
+
 ## Moduli
 
 Elenco di moduli interessanti con approfondimento:
