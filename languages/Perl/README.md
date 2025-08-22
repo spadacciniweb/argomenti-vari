@@ -22,6 +22,10 @@ Elenco di moduli interessanti con approfondimento:
 
 ## Approfondimenti
 
+- Caching:
+  - CHI
+  - Memcached
+  - [Redis](https://theweeklychallenge.org/blog/caching-in-perl/)
 - [Concurrent and Parallel Programming](https://github.com/manwar/Concurrent-Parallel-Programming)
 - [CVE in Perl](https://theweeklychallenge.org/blog/cve-in-perl/)
 - Dancer2:
