@@ -17,6 +17,7 @@ Elenco di moduli interessanti con approfondimento:
   - [Future](https://theweeklychallenge.org/blog/future-in-perl/)
   - [Promise](https://theweeklychallenge.org/blog/promise-in-perl/)
 - [Image to text](https://theweeklychallenge.org/blog/extraction-in-perl/)
+
 - [Test::Excel](https://theweeklychallenge.org/blog/test-excel/)
 
 ## Approfondimenti
@@ -41,6 +42,7 @@ Elenco di moduli interessanti con approfondimento:
     - [Ex new mod](https://peateasea.de/building-map-tube-whatever-maps-a-howto-first-steps/#creating-a-stub-module)
 - [Random](https://theweeklychallenge.org/blog/random-in-perl/)
 - [Read large file](https://theweeklychallenge.org/blog/read-large-file/)
+- [Serialisation in Perl](https://theweeklychallenge.org/blog/serialisation-in-perl/)
 - [Slurp](https://theweeklychallenge.org/blog/slurp-in-perl/)
 - [subroutine signatures](https://theweeklychallenge.org/blog/subroutine-signatures/)
 - Regexp:
