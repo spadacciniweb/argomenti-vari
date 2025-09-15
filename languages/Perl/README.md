@@ -53,5 +53,7 @@ Elenco di moduli interessanti con approfondimento:
   - [variable ${^LAST_SUCCESSFUL_PATTERN}](https://theweeklychallenge.org/blog/perl-regex/)
 - [Taint](https://theweeklychallenge.org/blog/taint/)
 - [type systems](https://blogs.perl.org/users/leon_timmermans/2025/02/a-deep-dive-into-the-perl-type-systems.html)
+- Serialisation:
+  - [Storeable vs Sereal](https://theweeklychallenge.org/blog/serialisation-in-perl/)
 - XS:
   - [Learning XS - 10 Part Series](https://dev.to/lnationorg/learning-perl-xs-how-to-create-an-object-24lj)
