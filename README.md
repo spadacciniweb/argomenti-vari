@@ -9,6 +9,7 @@ Teoria ed esempi sugli argomenti di seguito:
   - [Flutter](languages/Flutter/README.md)
   - [Perl](languages/Perl/README.md)
   - [Python](languages/Python/README.md)
+  - [Raku](languages/Raku/README.md)
 - [DBMS](DBMS/README.md):
   - [DBMS relazionali](DBMS/DBMSR/README.md)
   - [MongoDB](DBMS/MongoDB/README.md)
