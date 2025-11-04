@@ -10,6 +10,8 @@ Teoria ed esempi sugli argomenti di seguito:
   - [Perl](languages/Perl/README.md)
   - [Python](languages/Python/README.md)
   - [Raku](languages/Raku/README.md)
+- metalanguages:
+  - [Markdown](https://www.markdownguide.org/cheat-sheet/)
 - [DBMS](DBMS/README.md):
   - [DBMS relazionali](DBMS/DBMSR/README.md)
   - [MongoDB](DBMS/MongoDB/README.md)
