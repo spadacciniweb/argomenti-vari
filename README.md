@@ -11,6 +11,7 @@ Teoria ed esempi sugli argomenti di seguito:
   - [Python](languages/Python/README.md)
   - [Raku](languages/Raku/README.md)
 - metalanguages:
+  - [LaTeX](metalanguages/LaTeX/README.md)
   - [Markdown](https://www.markdownguide.org/cheat-sheet/)
 - [DBMS](DBMS/README.md):
   - [DBMS relazionali](DBMS/DBMSR/README.md)
