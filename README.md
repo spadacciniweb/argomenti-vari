@@ -26,6 +26,7 @@ Teoria ed esempi sugli argomenti di seguito:
   - [Podman](containers/Podman/README.md)
 - [Cryptography](cryptography/README.md)
 - [Machine Learning](Machine_Learning/README.md)
+- [network services](network_services/README.md)
 - [OS](OS/README.md)
 - [server web](server_web/README.md)
 - version control:
