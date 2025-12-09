@@ -6,7 +6,7 @@ Teoria ed esempi sugli argomenti di seguito:
   - [assembly](languages/assembler/Assembly/README.md)
   - [Bash](languages/Bash/README.md)
   - [C](languages/C/README.md)
-  - [Flutter](languages/Flutter/README.md)
+  - [Dart / Flutter](languages/Flutter/README.md)
   - [Perl](languages/Perl/README.md)
   - [Python](languages/Python/README.md)
   - [Raku](languages/Raku/README.md)
