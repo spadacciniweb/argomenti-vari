@@ -18,8 +18,11 @@ Teoria ed esempi sugli argomenti di seguito:
   - [MongoDB](DBMS/MongoDB/README.md)
   - [DuckDB](DBMS/DuckDB/README.md)
   - [Redis](DBMS/Redis/README.md)
-- cloud providers:
-    - [AWS](cloud_providers/README.md)
+- cloud:
+  - IAC:
+    - [Terraform](cloud/IAC/terraform.md)
+  - providers:
+    - [AWS](cloud/providers/AWS.md)
 - containers:
   - [Linux containers](containers/Linux_containers/README.md)
   - [Docker](containers/Docker/README.md)
