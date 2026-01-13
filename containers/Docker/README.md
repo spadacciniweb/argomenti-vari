@@ -7,3 +7,5 @@
   - [volume](https://theweeklychallenge.org/blog/docker-volume/)
 - courses:
   - [course by Gabor Szabo](https://code-maven.com/docker)
+- others:
+  - [The Hidden Cost of 'Consistent Environments': What Docker Actually Guarantees](https://speytech.com/insights/docker-hidden-cost/)
