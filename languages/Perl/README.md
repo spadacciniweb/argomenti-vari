@@ -17,7 +17,6 @@
 Elenco di moduli interessanti con approfondimento:
 
 - [App::Timer](https://theweeklychallenge.org/blog/app-timer/)
-- [DBIx::Class::Async](https://theweeklychallenge.org/blog/dbix-class-async/) - [update](https://theweeklychallenge.org/blog/dbix-class-async-update/)
 - Parallelizzazione:
   - [MCE, Many-Core Engine](https://theweeklychallenge.org/blog/mce-how-to/)
 - Async:
@@ -43,6 +42,7 @@ Elenco di moduli interessanti con approfondimento:
   - DBIx::Class:
     - [Intro](https://metacpan.org/dist/DBIx-Class/view/lib/DBIx/Class/Manual/Intro.pod)
     - [main POD](https://metacpan.org/pod/DBIx::Class)
+    - [DBIx::Class::Async](https://theweeklychallenge.org/blog/dbix-class-async/) - [update](https://theweeklychallenge.org/blog/dbix-class-async-update/)
 - Mojolicious and Docker:
   - [via DragosTrif](https://dev.to/dragostrif/mojolicious-and-docker-939)
   - [via github](https://github.com/Tekki/docker-mojolicious)
