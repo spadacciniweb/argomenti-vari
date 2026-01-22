@@ -1,6 +1,6 @@
-# Miscellanea: teoria ed esempi su vari argomenti
+# Miscellanea: theory and examples on various topics
 
-Teoria ed esempi sugli argomenti di seguito:
+Theory and examples on the topics below:
 
 - languages:
   - [assembly](languages/assembler/Assembly/README.md)
