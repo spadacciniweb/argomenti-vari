@@ -6,9 +6,9 @@
 
 - [MariaDB window function](https://mariadb.com/kb/en/window-functions-overview/)
 
-## Slides
+## MySQL
 
-### MySQL
+### Slides
 
 - [Mastering MySQL - Tips and Best Practices for Developers](https://speakerdeck.com/lefred/mastering-mysql-tips-and-best-practices-for-developers)
 - [Massimizzare le Prestazion del Tuo Database MySQL](https://speakerdeck.com/lefred/massimizzare-le-prestazion-del-tuo-database-mysql)
@@ -21,6 +21,11 @@
 - [MySQL Document Store - How to use MySQL without SQL](https://speakerdeck.com/lefred/mysql-document-store-how-to-use-mysql-without-sql)
 - [Discover the MySQL Document Store - MySQL for Developers](https://speakerdeck.com/lefred/discover-the-mysql-document-store-mysql-for-developers)
 - [MySQL Architectures - Easy deployments with the admin api](https://speakerdeck.com/lefred/mysql-architectures-easy-deployments-with-the-admin-api)
+
+## PostgreSQL
+
+- PostgreSQL Internals for Newbies: A Guide to Data Storage
+    - [Part One](https://www.percona.com/blog/postgresql-internals-for-newbies-a-guide-to-data-storage-part-one/)
 
 ## Sviluppo
 
