@@ -18,3 +18,7 @@
 - [MySQL Document Store - How to use MySQL without SQL](https://speakerdeck.com/lefred/mysql-document-store-how-to-use-mysql-without-sql)
 - [Discover the MySQL Document Store - MySQL for Developers](https://speakerdeck.com/lefred/discover-the-mysql-document-store-mysql-for-developers)
 - [MySQL Architectures - Easy deployments with the admin api](https://speakerdeck.com/lefred/mysql-architectures-easy-deployments-with-the-admin-api)
+
+## development
+
+- [maria2sqlite](https://github.com/spadacciniweb/maria2sqlite)
